@@ -2,6 +2,8 @@
 
 This repository archives a **refined and resource-efficient workflow** for fraud account detection in large-scale transaction data. It builds on the original dataset provided by [michaelcheungkm/Prediction-of-Good-or-Bad-Accounts](https://github.com/michaelcheungkm/Prediction-of-Good-or-Bad-Accounts/tree/459923ea7f521565a50d54e22a11325995b187c7/natxis), but **completely redesigns and improves** the dataset preparation and modeling pipeline.
 
+This workflow is able to provide efficient raw data handling and decision tree machine learning, with the best f1 score of 0.77.
+
 ---
 
 ## What's Different and Improved?
