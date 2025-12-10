@@ -1,6 +1,8 @@
 # Precomputed Account Aggregator for Fraud Detection
 
-This repository provides a **production-ready fraud detection pipeline** using ensemble stacking methodology. Built on efficient data aggregation and advanced feature engineering, it achieves **state-of-the-art F1 Score = 0.7843-0.7850** on imbalanced account classification.
+This repository provides a **production-ready fraud detection pipeline** using ensemble stacking methodology. 
+
+Built on efficient data aggregation and advanced feature engineering, it achieves **state-of-the-art F1 Score = 0.7843-0.7850** on imbalanced account classification.
 
 🔗 **Original Dataset:** [michaelcheungkm/Prediction-of-Good-or-Bad-Accounts](https://github.com/michaelcheungkm/Prediction-of-Good-or-Bad-Accounts/tree/459923ea7f521565a50d54e22a11325995b187c7/natxis)
 
@@ -65,6 +67,28 @@ This repository provides a **production-ready fraud detection pipeline** using e
 - Automatic ground truth evaluation
 - Detailed TN/FP/FN/TP breakdown
 
+### 🚀 Advanced Pipeline (F1=0.7888-0.7919)
+
+**Further Breakthrough:** Advanced techniques push F1 to **0.7888** (+0.61% over baseline), with hybrid methods reaching **0.7919**.
+
+#### 📁 `advance/` Folder
+**Advanced Fraud Detection with Ensemble and Hypothesis Generation**
+
+✨ **New Innovations:**
+- **Multi-Strategy Ensembles:** Weighted voting (60/40), adaptive thresholds, recall-optimized hybrids
+- **Hypothesis Generation:** 50,000+ automated hypotheses (random, uncertainty-based, baseline-anchored)
+- **Meta-Learning:** Stacking with conservative modeling (class weights 1:4)
+- **Feature Engineering:** Reversible noise, hierarchical clustering, behavioral indices
+- **Final Ensemble:** Best strategy (Weighted 60/40) achieves F1=0.7888, Recall=75.52%
+
+📈 **Advanced Performance:**
+- **Test F1:** 0.7888 (vs baseline 0.7843)
+- **Recall Improvement:** +4.7% (75.52% vs 72.07%)
+- **Hybrid Peak:** F1=0.7919 with optimized strategies
+- **Robustness:** Better handling of imbalanced data and overfitting
+
+🎨 **Visualizations:** Confusion matrices, ROC curves, feature importance, prediction distributions
+
 ---
 
 ## 🚀 Quick Start
@@ -128,6 +152,18 @@ jupyter notebook 01_baseline_training_enhanced.ipynb
 
 # 4. Generate visualizations
 jupyter notebook 02_baseline_visualization.ipynb
+```
+
+### Advanced Pipeline (F1=0.7888+)
+```bash
+# Navigate to advance folder
+cd advance
+
+# Run notebooks in order (01 to 07)
+jupyter notebook 01_data_preparation.ipynb
+# ... up to 07_final_prediction_ensemble.ipynb
+
+# Check README.md in advance/ for details
 ```
 
 ### Original Pipeline (F1=0.77)

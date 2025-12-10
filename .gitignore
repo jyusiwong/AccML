@@ -3,3 +3,12 @@ _*/
 .*/
 data/
 new/
+*_info/
+
+# files
+*.csv
+*.npy
+*.pkl
+*.cbm
+*.log
+thought.md
