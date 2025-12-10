@@ -46,11 +46,11 @@ The advanced approach leverages ensemble methods, hypothesis generation, meta-le
 ## Visual Explanations
 
 ### Confusion Matrix - Advanced Model
-![Confusion Matrix](figures/confusion_matrix_advanced.png)
+![Confusion Matrix](figures/evaluation_results_1-1.png)
 *Figure 1: Confusion matrix showing true positives (549), false negatives (178), and overall balance.*
 
 ### Prediction Confidence Distribution
-![Prediction Confidence](figures/prediction_confidence_distribution.png)
+![Prediction Confidence](figures/prediction_confidence.png)
 *Figure 2: Distribution of prediction confidence, highlighting high-confidence predictions for reliable decisions.*
 
 ### ROC Curve - Conservative Model
@@ -62,7 +62,7 @@ The advanced approach leverages ensemble methods, hypothesis generation, meta-le
 *Figure 4: Top features contributing to the model's decisions, aiding interpretability.*
 
 ### Final Prediction Distribution
-![Final Predictions](figures/final_prediction_distribution.png)
+![Final Predictions](figures/evaluation_results_1-2.png)
 *Figure 5: Distribution of final predictions (good vs bad), showing the model's output balance.*
 
 ## Usage Instructions
