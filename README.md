@@ -13,7 +13,9 @@ Built on efficient data aggregation and advanced feature engineering, it achieve
 <div align="center">
 
 ### Confusion Matrix & Metrics
-<img src="viz_baseline_confusion_matrix_choropleth.png" width="49%" alt="Confusion Matrix Choropleth"/> <img src="viz_baseline_metrics_overview.png" width="49%" alt="Metrics Overview"/>
+<img src="viz_baseline_confusion_matrix_choropleth.png" width="49%" alt="Confusion Matrix Choropleth"/>
+<br>
+<img src="viz_baseline_metrics_overview.png" width="49%" alt="Metrics Overview"/>
 
 ### Feature Importance & ROC/PR Curves
 <img src="viz_baseline_feature_importance.png" width="49%" alt="Feature Importance"/> <img src="viz_baseline_roc_pr_curves.png" width="49%" alt="ROC & PR Curves"/>
